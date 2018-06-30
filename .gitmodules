@@ -1,0 +1,36 @@
+[submodule "logger"]
+	path = logger
+	url = ../logger.git
+[submodule "base64"]
+	path = base64
+	url = ../base64.git
+[submodule "file-util"]
+	path = file-util
+	url = ../file-util.git
+[submodule "arg-parser"]
+	path = arg-parser
+	url = ../arg-parser.git
+[submodule "rapidxml"]
+	path = rapidxml
+	url = ../rapidxml.git
+[submodule "simple-ipc"]
+	path = simple-ipc
+	url = ../../MCMrARM/simple-ipc.git
+[submodule "daemon-utils"]
+	path = daemon-utils
+	url = ../daemon-utils.git
+[submodule "msa"]
+	path = msa
+	url = ../msa.git
+[submodule "msa-daemon"]
+	path = msa-daemon
+	url = ../msa-daemon.git
+[submodule "msa-daemon-client"]
+	path = msa-daemon-client
+	url = ../msa-daemon-client.git
+[submodule "msa-ui-gtk"]
+	path = msa-ui-gtk
+	url = ../msa-ui-gtk.git
+[submodule "msa-ui-qt"]
+	path = msa-ui-qt
+	url = ../msa-ui-qt.git
