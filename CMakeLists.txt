@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 
+set(CMAKE_CXX_STANDARD 11)
+
 function (LIST_JOIN RESULT SEPARATOR)
   set(_RESULT "")
   set(_FIRST_ARG TRUE)
