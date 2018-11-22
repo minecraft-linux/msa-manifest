@@ -40,6 +40,9 @@ if (VERBOSE_LOGGING)
   add_definitions(-DSIMPLEIPC_DEBUG_LOGGING -DDAEMON_UTILS_LOGGING -DMSA_LOG_NETWORK)
 endif()
 
+option(DEB_XENIAL_DEPENDENCIES "Use Ubuntu 16.04 dependency list" OFF)
+mark_as_advanced(DEB_XENIAL_DEPENDENCIES)
+
 include(ext/json.cmake)
 
 add_subdirectory(logger)
