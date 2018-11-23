@@ -41,7 +41,8 @@ if (VERBOSE_LOGGING)
 endif()
 
 option(DEB_XENIAL_DEPENDENCIES "Use Ubuntu 16.04 dependency list" OFF)
-mark_as_advanced(DEB_XENIAL_DEPENDENCIES)
+set(QT_RPATH "" CACHE STRING "Sets the install rpath to set for qt-enabled targets")
+mark_as_advanced(DEB_XENIAL_DEPENDENCIES QT_RPATH)
 
 include(ext/json.cmake)
 
