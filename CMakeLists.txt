@@ -40,7 +40,7 @@ if (VERBOSE_LOGGING)
   add_definitions(-DSIMPLEIPC_DEBUG_LOGGING -DDAEMON_UTILS_LOGGING -DMSA_LOG_NETWORK)
 endif()
 
-option(DEB_XENIAL_DEPENDENCIES "Use Ubuntu 16.04 dependency list" OFF)
+set(DEB_OS_NAME "none" CACHE STRING "Specifies the target OS for building the debs (ubuntu-xenial, ubuntu-bionic, ubuntu-disco)")
 set(QT_RPATH "" CACHE STRING "Sets the install rpath to set for qt-enabled targets")
 mark_as_advanced(DEB_XENIAL_DEPENDENCIES QT_RPATH)
 
