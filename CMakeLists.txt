@@ -42,7 +42,7 @@ endif()
 
 set(DEB_OS_NAME "none" CACHE STRING "Specifies the target OS for building the debs (ubuntu-xenial, ubuntu-bionic, ubuntu-disco)")
 set(QT_RPATH "" CACHE STRING "Sets the install rpath to set for qt-enabled targets")
-mark_as_advanced(DEB_XENIAL_DEPENDENCIES QT_RPATH)
+mark_as_advanced(DEB_OS_NAME QT_RPATH)
 
 include(ext/json.cmake)
 
