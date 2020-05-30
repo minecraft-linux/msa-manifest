@@ -1,36 +1,36 @@
 [submodule "logger"]
 	path = logger
-	url = ../logger.git
+	url = https://github.com/minecraft-linux/logger.git
 [submodule "base64"]
 	path = base64
-	url = ../base64.git
+	url = https://github.com/minecraft-linux/base64.git
 [submodule "file-util"]
 	path = file-util
-	url = ../file-util.git
+	url = https://github.com/minecraft-linux/file-util.git
 [submodule "arg-parser"]
 	path = arg-parser
-	url = ../arg-parser.git
+	url = https://github.com/minecraft-linux/arg-parser.git
 [submodule "rapidxml"]
 	path = rapidxml
-	url = ../rapidxml.git
+	url = https://github.com/minecraft-linux/rapidxml.git
 [submodule "simple-ipc"]
 	path = simple-ipc
-	url = ../../MCMrARM/simple-ipc.git
+	url = https://github.com/MCMrARM/simple-ipc.git
 [submodule "daemon-utils"]
 	path = daemon-utils
-	url = ../daemon-utils.git
+	url = https://github.com/minecraft-linux/daemon-utils.git
 [submodule "msa"]
 	path = msa
-	url = ../msa.git
+	url = https://github.com/minecraft-linux/msa.git
 [submodule "msa-daemon"]
 	path = msa-daemon
-	url = ../msa-daemon.git
+	url = https://github.com/minecraft-linux/msa-daemon.git
 [submodule "msa-daemon-client"]
 	path = msa-daemon-client
-	url = ../msa-daemon-client.git
+	url = https://github.com/minecraft-linux/msa-daemon-client.git
 [submodule "msa-ui-gtk"]
 	path = msa-ui-gtk
-	url = ../msa-ui-gtk.git
+	url = https://github.com/minecraft-linux/msa-ui-gtk.git
 [submodule "msa-ui-qt"]
 	path = msa-ui-qt
-	url = ../msa-ui-qt.git
+	url = https://github.com/minecraft-linux/msa-ui-qt.git
