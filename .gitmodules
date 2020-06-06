@@ -34,3 +34,6 @@
 [submodule "msa-ui-qt"]
 	path = msa-ui-qt
 	url = https://github.com/minecraft-linux/msa-ui-qt.git
+[submodule "json"]
+	path = json
+	url = https://github.com/nlohmann/json.git

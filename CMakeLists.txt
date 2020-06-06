@@ -44,7 +44,7 @@ set(DEB_OS_NAME "none" CACHE STRING "Specifies the target OS for building the de
 set(QT_RPATH "" CACHE STRING "Sets the install rpath to set for qt-enabled targets")
 mark_as_advanced(DEB_OS_NAME QT_RPATH)
 
-include(ext/json.cmake)
+add_subdirectory(json)
 
 add_subdirectory(logger)
 add_subdirectory(base64)
