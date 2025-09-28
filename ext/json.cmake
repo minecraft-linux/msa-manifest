@@ -6,8 +6,12 @@ FetchContent_Declare(
 )
 
 FetchContent_GetProperties(nlohmann_json_ext)
-if(NOT nlohmann_json_ext_POPULATED)
-  FetchContent_Populate(nlohmann_json_ext)
+if(POLICY CMP0169)
+  FetchContent_MakeAvailable(nlohmann_json_ext)
+else()
+  if(NOT nlohmann_json_ext_POPULATED)
+    FetchContent_Populate(nlohmann_json_ext)
+  endif()
 endif()
 
 add_library(nlohmann_json INTERFACE IMPORTED)
